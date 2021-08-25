@@ -43,7 +43,7 @@ example command for client.java:
 The additional argument of client_udp_server_port is for the P2P UDP communication. In UDP P2P communication, one client program (i.e., Audience) acts as UDP server and the other client program (i.e., Presenter) acts as UDP client.
 
 # Example interaction
-Yoda termainl and Hans termminal was runned by client.java file and server terminal was runned by server.java file
+Yoda termainl and Hans termminal was runned by client.java file and server terminal was runned by server.java file. the video file is under the same directory as client and server file.
 <img width="746" alt="Screen Shot 2021-08-25 at 14 03 21" src="https://user-images.githubusercontent.com/58925650/130724625-d15f32c6-6862-4173-9dd0-55ab7cde19d3.png">
 
 
