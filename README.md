@@ -13,7 +13,7 @@ When a client requests for a connection to the server, e.g., for attending a vid
 * On entering invalid credentials, the user is prompted to retry. After a number of consecutive failed attempts, the user is blocked for a duration of 10 seconds and cannot login during this 10 second duration (even from another IP address).
 
 ## Text Message operation
-Following successful login, the client displays a message to the user informing them of all available commands and prompting to select one command. The following commands are available. All available commands are showing to the user in the first instance after successful login. If an invalid command is selected, an error message is shown to the user and they will be prompted to select one of the available actions.
+Following successful login, the client displays a message to the user informing them of all available commands and prompting to select one command. The following commands(terminal) are available. All available commands are showing to the user in the first instance after successful login. If an invalid command is selected, an error message is shown to the user and they will be prompted to select one of the available actions.
 
 * MSG: Post Message -> messagenumber; timestamp; username; message; edited
 * DLT: Delete Message -> DLT messagenumber timestamp
@@ -21,6 +21,11 @@ Following successful login, the client displays a message to the user informing 
 * RDM: Read Message -> RDM timestamp
 * ATU: Display active users -> ATU
 * OUT: Log out -> OUT
+* UPD: Upload file -> UPD username filename
+
+## Peer to Peer Communication(video file upload)
+The P2P enables one client upload video files to another client using UDP. Each client is in one of two states, Presenter or Audience. The Presenter client sends video files the Audience client. Here, the presenter client is the UDP client, while the Audience client is the UDP server. After receiving the video files, the Audience client saves the files and the username of Presenter. a client can behave in either Presenter or Audience state.
+
 * UPD: Upload file -> UPD username filename
 
 # Progragmming language
