@@ -22,3 +22,11 @@ Following successful login, the client displays a message to the user informing 
 * ATU: Display active users -> ATU
 * OUT: Log out -> OUT
 * UPD: Upload file -> UPD username filename
+
+# Progragmming language
+Java
+
+# How to use
+clone the file to the local computer and run the client.java and server.java file. Running the server.java file first to open the server and client.java to initiate the connection between the server.
+
+# Example interaction
