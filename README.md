@@ -32,7 +32,7 @@ The P2P enables one client upload video files to another client using UDP. Each 
 Java
 
 # How to use
-clone the file to the local computer and run the client.java and server.java file. Running the server.java file first to open the server and client.java to initiate the connection between the server. When testing, you can run the server and multiple clients on the same machine on separate terminals. In this case, use 127.0.0.1 (local host) as the server IP address. 
+clone the file to the local computer and run the client.java and server.java file. Running the Server executable file first to open the server and Client executeable to initiate the connection between the server. When testing, you can run the server and multiple clients on the same machine on separate terminals. In this case, use 127.0.0.1 (local host) as the server IP address. 
 
 example command for server.java:
 * java Server server_port number_of_consecutive_failed_attempts
