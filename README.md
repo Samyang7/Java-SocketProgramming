@@ -1,6 +1,6 @@
 # Project description
 
-Implementing a simple version of online videoconferencing and messaging application based on a client server model consisting of one server and multiple clients communicating concurrently. The text messages should be communicated using TCP for the reason of reliability, while the video (we will use video files instead of capturing the live video streams from cameras and microphones) should be communicated using UDP for the reason of low latency. application will support a range of functions that are typically found on videoconferencing including authentication, posting text message to all participants or one particular participant, uploading video streams (i.e., files in this assignment). 
+Implementing a simple version of online videoconferencing and messaging application based on a client server model consisting of one server and multiple clients communicating concurrently. The text messages should be communicated using TCP for the reason of reliability, while the video (we will use video files instead of capturing the live video streams from cameras and microphones) should be communicated using UDP for the reason of low latency. application will support a range of functions that are typically found on videoconferencing including authentication, posting text message to all participants or one particular participant, uploading video streams.
 
 # General functionality
 
