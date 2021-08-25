@@ -27,6 +27,18 @@ Following successful login, the client displays a message to the user informing 
 Java
 
 # How to use
-clone the file to the local computer and run the client.java and server.java file. Running the server.java file first to open the server and client.java to initiate the connection between the server.
+clone the file to the local computer and run the client.java and server.java file. Running the server.java file first to open the server and client.java to initiate the connection between the server. When testing, you can run the server and multiple clients on the same machine on separate terminals. In this case, use 127.0.0.1 (local host) as the server IP address. 
+
+example command for server.java:
+* java Server server_port number_of_consecutive_failed_attempts
+
+example command for client.java:
+* java Client server_IP server_port client_udp_server_port
+
+The additional argument of client_udp_server_port is for the P2P UDP communication. In UDP P2P communication, one client program (i.e., Audience) acts as UDP server and the other client program (i.e., Presenter) acts as UDP client.
 
 # Example interaction
+Yoda termainl and Hans termminal was runned by client.java file and server terminal was runned by server.java file
+<img width="746" alt="Screen Shot 2021-08-25 at 14 03 21" src="https://user-images.githubusercontent.com/58925650/130724625-d15f32c6-6862-4173-9dd0-55ab7cde19d3.png">
+
+
